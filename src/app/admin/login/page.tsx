@@ -1,15 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 
 export default function AdminLoginPage() {
   const [password, setPassword] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const router = useRouter();
-  const searchParams = useSearchParams();
-  const from = searchParams.get("from") ?? "/admin";
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -26,7 +24,7 @@ export default function AdminLoginPage() {
         setError(data.error ?? "Login failed");
         return;
       }
-      router.push(from);
+      router.push("/admin");
       router.refresh();
     } catch {
       setError("Something went wrong");
