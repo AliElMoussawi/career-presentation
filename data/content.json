@@ -89,7 +89,8 @@
       "description": "",
       "phase": "growth",
       "shape": "card",
-      "logoUrl": "/uploads/aheeva-logo-1770708286190.png"
+      "logoUrl": "/uploads/aheeva-logo-1770708286190.png",
+      "color": "rose"
     },
     {
       "id": "051c4e77",
@@ -109,7 +110,8 @@
       "description": "",
       "phase": "current",
       "shape": "card",
-      "logoUrl": "/uploads/sarwa_logo_1024-1770708627869.png"
+      "logoUrl": "/uploads/sarwa_logo_1024-1770708627869.png",
+      "color": "green"
     }
   ],
   "skills": [],
