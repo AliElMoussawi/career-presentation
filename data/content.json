@@ -3,7 +3,8 @@
     "name": "Ali Moussawi",
     "title": "Backend and Data Engineer",
     "tagline": "",
-    "ctaText": "Explore My Journey"
+    "ctaText": "Explore My Journey",
+    "linkedInUrl": "https://www.linkedin.com/in/moussawi-ali/"
   },
   "strategy": {
     "headline": "My Strategy Since Day One",
@@ -13,7 +14,7 @@
       "Diagnose your real level",
       "Understand market needs",
       "Vertical scaling, not horizontal scaling",
-      "Career is a marathon",
+      "Career as a marathon",
       "Invest in connections and relationships",
       "Seek opportunities, don't wait for them",
       "Control your distractors",
@@ -137,7 +138,7 @@
       {
         "id": "4",
         "number": 4,
-        "title": "What companies actually look for"
+        "title": "What companies look for"
       }
     ]
   },
